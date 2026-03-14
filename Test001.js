@@ -1,4 +1,4 @@
-function printHollowDiamond(n) {
+function printDiamond(n) {
   // 1. Upper part of the diamond
   for (let i = 1; i <= n; i++) {
     let row = "";
@@ -37,4 +37,4 @@ function printHollowDiamond(n) {
 }
 
 // Execute with n = 5 
-printHollowDiamond(5);
+printDiamond(5);
